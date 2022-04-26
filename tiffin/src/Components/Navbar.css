@@ -1,0 +1,16 @@
+.logo{
+  margin-left: 50px;
+}
+
+.content{
+  margin-right: 30px;
+}
+
+.signup{
+  border-radius: 20%;
+  background-color: rgb(101, 107, 209);
+}
+
+.nav-item{
+  justify-content: space-between;
+}
