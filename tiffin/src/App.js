@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route } from 'react-router-dom';
 import './App.css';
-import loginAdmin from './Components/loginAdmin';
+import LoginAdmin from './Components/LoginAdmin';
 import Navbar from './Components/Navbar';
 import Home from './Components/Home';
 import About from './Components/About';
@@ -35,8 +35,8 @@ const App = () => {
         <Signup />
       </Route>
 
-      <Route path="/loginAdmin">
-        <loginAdmin />
+      <Route path="/LoginAdmin">
+        <LoginAdmin />
       </Route>
       
 

@@ -26,7 +26,7 @@ const Login = () => {
         <div class="social-login">
           
           <button  class="button login__submit button__admin" >
-            <NavLink to="/loginAdmin"><span class="admin-login button__text">Log In as Admin</span></NavLink>
+            <NavLink to="/LoginAdmin" style={{textDecoration: 'none'}}><span class="admin-login button__text">Log In as Admin</span></NavLink>
             </button>
           <div class="social-icons">
             <a href="#" class="social-login__icon fab fa-instagram"></a>

@@ -1,5 +1,6 @@
 import React from 'react'
-import './loginAdmin.css';
+import './LoginAdmin.css';
+import { NavLink } from "react-router-dom";
 
 const loginAdmin = () => {
   return (
@@ -11,21 +12,21 @@ const loginAdmin = () => {
         <form class="login">
           <div class="login__field">
             <i class="login__icon fas fa-user"></i>
-            <input type="text" class="login__input" placeholder="User name / Email" />
+            <input type="text" class="login__input" placeholder="Admin name" />
           </div>
           <div class="login__field">
             <i class="login__icon fas fa-lock"></i>
             <input type="password" class="login__input" placeholder="Password" />
           </div>
           <button class="button login__submit">
-            <span class="button__text">Log In Now</span>
+            <span class="button__text">Log In</span>
             <i class="button__icon fas fa-chevron-right"></i>
           </button>				
         </form>
         <div class="social-login">
           
-          <button class="button login__submit button__admin">
-            <span class="admin-login button__text">Log In as Client</span>
+        <button  class="button login__submit button__admin" >
+            <NavLink to="/Login" style={{textDecoration: 'none'}}><span class="admin-login button__text">Log In as Client</span></NavLink>
             </button>
           <div class="social-icons">
             <a href="#" class="social-login__icon fab fa-instagram"></a>
