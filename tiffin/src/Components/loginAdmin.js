@@ -1,8 +1,7 @@
 import React from 'react'
-import './login.css';
-import { NavLink } from "react-router-dom";
+import './loginAdmin.css';
 
-const Login = () => {
+const loginAdmin = () => {
   return (
     <>
     <div className='bgcolor'>
@@ -25,8 +24,8 @@ const Login = () => {
         </form>
         <div class="social-login">
           
-          <button  class="button login__submit button__admin" >
-            <NavLink to="/loginAdmin"><span class="admin-login button__text">Log In as Admin</span></NavLink>
+          <button class="button login__submit button__admin">
+            <span class="admin-login button__text">Log In as Client</span>
             </button>
           <div class="social-icons">
             <a href="#" class="social-login__icon fab fa-instagram"></a>
@@ -48,4 +47,4 @@ const Login = () => {
   )
 }
 
-export default Login
+export default loginAdmin

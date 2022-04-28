@@ -1,6 +1,7 @@
 import React from 'react'
 import { Route } from 'react-router-dom';
 import './App.css';
+import loginAdmin from './Components/loginAdmin';
 import Navbar from './Components/Navbar';
 import Home from './Components/Home';
 import About from './Components/About';
@@ -32,6 +33,10 @@ const App = () => {
 
       <Route path="/Signup">
         <Signup />
+      </Route>
+
+      <Route path="/loginAdmin">
+        <loginAdmin />
       </Route>
       
 
